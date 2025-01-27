@@ -1,0 +1,27 @@
+# Site settings
+title: Schecter Consulting
+email: suzyschecter.ai@gmail.com
+description: >
+  Schecter Consulting provides highly effective technology consulting for small to medium size businesses. Trying to optimize your marketing approach, accounting system, or CRM? Schecter Consulting can help.
+baseurl: "" # the subpath of your site, e.g., /blog
+url: "http://schecterconsulting.com"
+twitter_username: na
+github_username: na
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+
+# Exclude from processing
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
